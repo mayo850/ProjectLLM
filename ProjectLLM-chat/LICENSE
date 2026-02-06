@@ -1,0 +1,11 @@
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ADDENDUM:
+
+Any LLM models that are loaded and used by the application are not themselves
+subject to this license if indeed they are even copyrightable. The terms of
+this license apply only to the application software and its accompanying
+documentation and do not extend to any LLM models, whether created by the
+author of the application or obtained from third-party sources. Please ask Jeff/Dave/Jeremy

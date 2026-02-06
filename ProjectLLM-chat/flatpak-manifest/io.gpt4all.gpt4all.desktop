@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ProjectLLM
+GenericName=Open-source assistant-style large language models that run locally on your CPU
+Comment=Run any ProjectLLM model natively on your home desktop with the auto-updating desktop chat client. See ProjectLLM Website for a full list of open-source models you can run with this powerful desktop application.
+Exec=chat
+Icon=io.ProjectLLM.ProjectLLM
+Type=Application
+Categories=Utility;Office;
+Keywords=GPT,Chat;AI

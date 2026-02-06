@@ -1,0 +1,25 @@
+[submodule "llama.cpp-mainline"]
+	path = ProjectLLM-backend/deps/llama.cpp-mainline
+	url = https://github.com/nomic-ai/llama.cpp.git
+	branch = master
+[submodule "ProjectLLM-chat/usearch"]
+	path = ProjectLLM-chat/deps/usearch
+	url = https://github.com/nomic-ai/usearch.git
+[submodule "ProjectLLM-chat/deps/SingleApplication"]
+	path = ProjectLLM-chat/deps/SingleApplication
+	url = https://github.com/nomic-ai/SingleApplication.git
+[submodule "ProjectLLM-chat/deps/fmt"]
+	path = ProjectLLM-chat/deps/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "ProjectLLM-chat/deps/DuckX"]
+	path = ProjectLLM-chat/deps/DuckX
+	url = https://github.com/nomic-ai/DuckX.git
+[submodule "ProjectLLM-chat/deps/QXlsx"]
+	path = ProjectLLM-chat/deps/QXlsx
+	url = https://github.com/nomic-ai/QXlsx.git
+[submodule "ProjectLLM-chat/deps/minja"]
+	path = ProjectLLM-chat/deps/minja
+	url = https://github.com/nomic-ai/minja.git
+[submodule "ProjectLLM-chat/deps/json"]
+	path = ProjectLLM-chat/deps/json
+	url = https://github.com/nlohmann/json.git

@@ -1,0 +1,93 @@
+site_name: ProjectLLM
+repo_url: https://github.com/nomic-ai/ProjectLLM
+repo_name: nomic-ai/ProjectLLM
+site_url: https://docs.ProjectLLM.io
+edit_uri: edit/main/docs/
+site_description: ProjectLLM Docs - run LLMs efficiently on your hardware
+copyright: Copyright &copy; 2024 Nomic, Inc
+use_directory_urls: false
+
+nav:
+    - 'index.md' 
+    - 'Quickstart' : 'ProjectLLM_desktop/quickstart.md'
+    - 'Chats' : 'ProjectLLM_desktop/chats.md'
+    - 'Models' : 'ProjectLLM_desktop/models.md'
+    - 'LocalDocs' : 'ProjectLLM_desktop/localdocs.md'
+    - 'Settings' : 'ProjectLLM_desktop/settings.md'
+    - 'Chat Templates' : 'ProjectLLM_desktop/chat_templates.md'
+    - 'Cookbook':
+      - 'Local AI Chat with Microsoft Excel': 'ProjectLLM_desktop/cookbook/use-local-ai-models-to-privately-chat-with-microsoft-excel.md'
+      - 'Local AI Chat with your Google Drive': 'ProjectLLM_desktop/cookbook/use-local-ai-models-to-privately-chat-with-google-drive.md'
+      - 'Local AI Chat with your Obsidian Vault': 'ProjectLLM_desktop/cookbook/use-local-ai-models-to-privately-chat-with-Obsidian.md'
+      - 'Local AI Chat with your OneDrive': 'ProjectLLM_desktop/cookbook/use-local-ai-models-to-privately-chat-with-One-Drive.md'
+    - 'API Server':
+      - 'ProjectLLM_api_server/home.md'
+    - 'Python SDK':
+      - 'ProjectLLM_python/home.md'
+      - 'Monitoring': 'ProjectLLM_python/monitoring.md'
+      - 'SDK Reference': 'ProjectLLM_python/ref.md'
+    - 'Help':
+      - 'FAQ': 'ProjectLLM_help/faq.md'
+      - 'Troubleshooting': 'ProjectLLM_help/troubleshooting.md'
+
+
+theme:
+  name: material
+  palette:
+    primary: white
+  logo: assets/nomic.png
+  favicon: assets/favicon.ico
+  features:
+    - content.code.copy
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+#    - navigation.tabs
+#    - navigation.tabs.sticky
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - docs/overrides/.icons
+  - tables
+  - admonition
+  - codehilite:
+      css_class: highlight
+  - markdown_captions
+
+extra_css:
+    - css/custom.css
+
+
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_root_heading: True
+            heading_level: 4
+            show_root_full_path: false
+            docstring_section_style: list
+  - material/social:
+      cards_layout_options:
+          font_family: Roboto
+          description: ProjectLLM runs LLMs efficiently on your hardware
+
+extra:
+  generator: false
+  analytics:
+    provider: google
+    property: G-NPXC8BYHJV
